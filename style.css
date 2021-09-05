@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    font-family: 'Poppins', sans-serif;
+}
+.gallery{
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+.gallery h2{
+    color: #535353;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 20px 12px;
+}
+.masonary{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 2500px;
+    margin: auto;
+    width: 100%;
+}
+.m-pic{
+    width: 33.33%;
+    padding:12px;
+    box-sizing: border-box;
+}
+.m-pic img{
+    cursor: pointer;
+    width: 100%;
+}
